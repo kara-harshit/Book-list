@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./dist/favicon.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./dist/output.css">
+    
+    <title>Booklist-Contact</title>
+</head>
+<body>
+    <nav class="flex justify-between bg-white h-[3rem] px-10">
+        <div class="flex space-x-5 items-center" >
+            <i class="fa-2x fa-sharp fa-solid fa-book-open text-sky-300"></i>
+            <h1 class="text-2xl font-sans font-bold">Book List</h1>
+        </div>
+        <div class="space-x-10 pt-2 font-mono">
+            <a href="/index.html">Home</a>
+            <a href="/addbook.html">Add Book</a>
+            <a href="#">Contact us</a>
+            <a href="./recom.html">Recommended</a>
+        </div>
+    </nav>
+    <main>
+        <h1 class="text-center text-6xl font-bold font-mono mb-10 mt-10">Contact</h1>
+        <form action="https://formsubmit.co/ritick055@gmail.com" method="POST" class="flex flex-col items-center">
+                <div class="flex flex-col">
+                <label for="mail" class="font-mono mx-4 mb-3 text-xl">Email</label>
+                <input type="email" name="email" id="mail" class="border-2 p-1 w-[25rem]">
+                </div>
+                <label for="msg" class="text-xl p-1 w-96 font-mono mb-3">Message</label>
+                <textarea class="border-2 mb-4 p-2" name="message" id="msg" cols="50" rows="10" ></textarea>
+                <button type="submit" class="border-2 font-mono  px-8 py-2 bg-black text-white border-black hover:text-black hover:bg-white">Send</button>
+        </form>
+        
+        <div class="flex justify-center space-x-20 mt-20">
+            <a href="https://twitter.com/KARA_11110112">
+                <i class="fa-3x fa-brands fa-twitter pt-3 text-sky-400"></i>
+            </a>
+            <a href="https://github.com/kara-harshit">
+                <i class="fa-3x fa-brands fa-github pt-3"></i>
+            </a>
+            <a href="#">
+                <i class="fa-3x fa-solid fa-envelope pt-3"></i>
+            </a>
+            <a href="https://www.showwcase.com/kara">
+                <img src="./dist/showwcase logo.png" class="h-20" alt="">
+            </a>
+                
+        </div>
+        
+    </main>
+</body>
+</html>

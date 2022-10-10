@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.list{
+    background-color: white;
+    display: flex;
+    padding:1rem;
+    justify-content: space-between;
+}
+.del{
+    transform: translateY(8rem) rotateZ(20deg) ;
+    opacity: 0;
+}
